@@ -1,28 +1,29 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="overflow-x-hidden" id="app">
+    <div class="bg-yellow-400 min-h-screen mx-auto flex flex-col justify-start w-screen shadow-2xl">
+      <Nav class="mb-6" />
+      <HeroText />
+    </div>
+    <FeaturedProjects/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Nav from './components/Nav.vue'
+import HeroText from './components/HeroText.vue'
+import FeaturedProjects from './components/FeaturedProjects.vue'
+import './assets/css/main.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Nav,
+    HeroText,
+    FeaturedProjects,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
