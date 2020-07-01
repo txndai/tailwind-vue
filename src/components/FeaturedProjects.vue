@@ -8,7 +8,7 @@
       
       <div id="cardContainer" class="flex flex-no-wrap  overflow-x-auto scrolling-touch">
         <div v-for="card in cards" :key="card.title"
-          class="p-4 min-w-sm flex md:min-w-3xl ">
+          class="p-4 min-w-full flex md:min-w-3xl ">
             <PortfolioCard :card="card" />
         </div>
       </div>

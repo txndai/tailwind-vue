@@ -13,6 +13,7 @@ module.exports = {
     },
     colors: {
       transparent: 'transparent',
+      overlay: 'rgba(92, 92, 92, 0.548);',
       current: 'currentColor',
 
       black: '#000',

@@ -1,5 +1,5 @@
 <template>
-  <header class=" bg-gray-700 sm:flex sm:justify-between sm:items-center sm:px-8 sm:py-0">
+  <header class=" bg-overlay sm:flex sm:justify-between sm:items-center sm:px-8 sm:py-0">
     <div class="flex items-center justify-between px-4 py-5 sm:px-4">
       <div>
         <a href="#"><img class="h-8" src="/img/gb.png" alt="Goosebumps logo"></a>
@@ -14,10 +14,10 @@
       </div>
     </div>
     <nav :class="isOpen ? 'block' : 'hidden'" class="text-center px-2 pt-2 pb-4 sm:flex sm:p-0">
-      <a href="#" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">Home</a>
-      <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Music</a>
-      <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Web Development</a>
-      <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">About</a>
+      <a href="#" class="block px-2 py-1 text-gray-300 hover:text-gray-500 font-semibold rounded hover:bg-gray-800">Home</a>
+      <a href="#" class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-500 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Music</a>
+      <a href="#" class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-500 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Web Development</a>
+      <a href="#" class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-500 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">About</a>
     </nav>
   </header>
 </template>
