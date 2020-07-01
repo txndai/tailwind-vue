@@ -20,16 +20,16 @@
 </template>
 
 <script>
-import Nav from './components/Nav.vue'
-import HeroText from './components/HeroText.vue'
-import FeaturedProjects from './components/FeaturedProjects.vue'
-import playlists from './components/FeaturedPlaylists.vue'
-import mixes from './components/FeaturedMixes.vue'
-import MainFooter from './components/MainFooter.vue'
-import './assets/css/main.css'
+import Nav from './Nav.vue'
+import HeroText from './HeroText.vue'
+import FeaturedProjects from './FeaturedProjects.vue'
+import playlists from './FeaturedPlaylists.vue'
+import mixes from './FeaturedMixes.vue'
+import MainFooter from './MainFooter.vue'
+import '../assets/css/main.css'
 
 export default {
-  name: 'Index',
+  name: 'Home',
   components: {
     Nav,
     HeroText,
