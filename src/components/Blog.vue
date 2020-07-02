@@ -1,5 +1,6 @@
 <template>
-  <section class="text-gray-500 bg-gray-900 body-font">
+  <section class="text-gray-500 bg-gray-900 body-font min-h-screen flex flex-col justify-between">
+    <Nav class="mb-6 " />
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap -m-4">
         <div class="p-4 md:w-1/3">
@@ -91,15 +92,23 @@
         </div>
       </div>
     </div>
+    <MainFooter/>
   </section>
 </template>
 
 <script>
-export default {
+import Nav from './Nav.vue'
+import MainFooter from './MainFooter.vue'
 
+export default {
+  name: 'blog',
+  components: {
+    Nav,
+    MainFooter,
+}
 }
 </script>
-
+  
 <style>
 
 </style>

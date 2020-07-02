@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import ComingSoon from '@/components/ComingSoon.vue'
 import About from '@/components/About.vue'
 import Contact from '@/components/Contact.vue'
+import Blog from '@/components/Blog.vue'
 import Home from '@/components/Home.vue'
 
 
@@ -29,6 +30,11 @@ Vue.use(VueRouter)
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/webdev',
+    name: 'Blog',
+    component: Blog
   },
 ]
 

@@ -9,16 +9,16 @@
       <div class="lg:w-1/2 md:w-2/3 mx-auto">
         <div class="flex flex-wrap -m-2">
           <div class="p-2 w-1/2">
-            <input class="w-full bg-gray-300 rounded border border-gray-700 text-gray-800 focus:outline-none focus:border-orange-500 text-base px-4 py-2" placeholder="Name" type="text">
+            <input class="w-full bg-gray-300 rounded border border-gray-700 text-gray-800 focus:outline-none focus:border-yellow-200 text-base px-4 py-2" placeholder="Name" type="text">
           </div>
           <div class="p-2 w-1/2">
-            <input class="w-full bg-gray-300 rounded border border-gray-700 text-gray-800 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email">
+            <input class="w-full bg-gray-300 rounded border border-gray-700 text-gray-800 focus:outline-none focus:border-yellow-200 text-base px-4 py-2" placeholder="Email" type="email">
           </div>
           <div class="p-2 w-full">
-            <textarea class="w-full bg-gray-300 rounded border border-gray-700 text-gray-800 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message"></textarea>
+            <textarea class="w-full bg-gray-300 rounded border border-gray-700 text-gray-800 focus:outline-none h-48 focus:border-yellow-200 text-base px-4 py-2 resize-none block" placeholder="Message"></textarea>
           </div>
           <div class="p-2 w-full">
-            <button class="bg-teal-100 text-gray-600 font-semibold  flex mx-auto  border-0 py-2 px-8 focus:outline-none hover:bg-gray-800 rounded text-lg">Submit</button>
+            <button class="bg-orange-100 text-gray-600 font-semibold  flex mx-auto  border-0 py-2 px-8 focus:outline-none hover:bg-gray-800 rounded text-lg">Submit</button>
           </div>
           <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
             
