@@ -14,10 +14,11 @@
       </div>
     </div>
     <nav :class="isOpen ? 'block' : 'hidden'" class="text-center px-2 pt-2 pb-4 sm:flex sm:p-0">
-      <a href="soon.vue" class="block px-2 py-1 text-gray-300 hover:text-gray-500 font-semibold rounded hover:bg-gray-800">Home</a>
-      <a href="#" class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-500 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Music</a>
-      <a href="#" class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-500 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Web Development</a>
-      <a href="#" class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-500 font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">About</a>
+      <router-link to="/" class="  block px-2 py-1 text-gray-300 hover:text-gray-400 font-semibold rounded hover:bg-overlay">Home</router-link>
+      <router-link to="soon"    class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-400 font-semibold rounded hover:bg-overlay sm:mt-0 sm:ml-2">Music</router-link>
+      <router-link to="soon"    class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-400 font-semibold rounded hover:bg-overlay sm:mt-0 sm:ml-2">Web Development</router-link>
+      <router-link to="about"   class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-400 font-semibold rounded hover:bg-overlay sm:mt-0 sm:ml-2">About</router-link>
+      <router-link to="contact" class="mt-1 block px-2 py-1 text-gray-300 hover:text-gray-400 font-semibold rounded hover:bg-overlay sm:mt-0 sm:ml-2">Contact</router-link>
     </nav>
   </header>
 </template>
